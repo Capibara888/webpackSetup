@@ -6,7 +6,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import CopyPlugin from 'copy-webpack-plugin'
 
-import { BuildOptions } from "../types/types";
+import { BuildOptions } from "./types/types";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import path from "path";
 
