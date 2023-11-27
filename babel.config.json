@@ -1,0 +1,5 @@
+// Выносим вот так в конфиг, когда много опций, например если еще jest опции добавить будет прям много и выносим крч
+
+{
+    "presets": ["@babel/preset-env",  ["@babel/preset-react", {"runtime": "automatic"}], "@babel/preset-typescript"]
+  }
